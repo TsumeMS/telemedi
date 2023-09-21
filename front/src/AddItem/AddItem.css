@@ -1,0 +1,24 @@
+.AddItem {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.AddItem input[type="text"] {
+    width: calc(100% - 100px);
+    background-color: transparent;
+    padding: 8px 12px;
+    border: none;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    font-size: calc(10px + 2vmin);
+    outline: none;
+    color: white;
+}
+.AddItem .addButton {
+    width: 55px;
+    height: 55px;
+    background-color: darkgreen;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+}

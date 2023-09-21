@@ -1,0 +1,25 @@
+.Item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Item input[type="checkbox"] {
+    width: 35px;
+    height: 35px;
+    border-radius: 15px;
+}
+.Item p {
+    margin: 15px 0;
+    width: calc(100% - 70px);
+    text-align: left;
+    padding-left: 1em;
+}
+.Item input[type="checkbox"]:checked ~ p {
+    text-decoration: line-through;
+}
+.Item .deleteButton {
+    width: 35px;
+    height: 35px;
+    color: darkred;
+    cursor: pointer;
+}
